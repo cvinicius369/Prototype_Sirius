@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Source+Code+Pro:wght@300;700&display=swap" rel="stylesheet">
+    <title>Sirius</title>
+    <style>
+        ::selection { background-color: black; border-radius: 15px; }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Code Pro', monospace;
+            background: linear-gradient(135deg, #1e1e2f, #3d0071, #570a99);
+            color: #00ffea;
+            font-weight: 300;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            color: #00fff7;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #00ffe6;
+            text-shadow: 0 0 20px rgba(0, 255, 230, 0.9);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #faff00;
+            text-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #7effff;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.1em;
+        }
+
+        ul li {
+            padding: 8px 0;
+            color: #ffffff;
+            background-color: rgba(0, 255, 200, 0.1);
+            margin: 8px 0;
+            border-radius: 10px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        ul li:hover {
+            background-color: rgba(0, 255, 200, 0.3);
+        }
+
+        div {
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            box-shadow: 0 0 40px rgba(0, 255, 230, 0.3);
+            max-width: 800px;
+            text-align: center;
+        }
+
+        /* Adicionando animação sutil no fundo */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle, rgba(0,255,240,0.1), rgba(0,0,0,0));
+            animation: pulsar 5s infinite;
+        }
+
+        @keyframes pulsar {
+            0%, 100% {
+                opacity: 0.2;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>SIRIUS 3.1</h1>
+        <h3>A nova versão do assistente pessoal de rotinas.</h3>
+        
+        <div>
+            <h2>Funcionalidades</h2>
+            <ul>
+                <li>Auxílio em investimentos</li>
+                <li>Auxílio acadêmico</li>
+                <li>Gerador de poemas</li>
+                <li>Auxílio em despesas</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

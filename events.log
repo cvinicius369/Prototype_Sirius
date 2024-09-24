@@ -1,0 +1,104 @@
+14-09-2024 19:06:22 - INFO : STARTING SYSTEM - 102 - Inicializacao do sistema!
+14-09-2024 19:06:22 - INFO : FINISHED STARTING SERVER - 200 - Inicializacao concluida
+14-09-2024 19:06:22 - DEBUG : TESTING - 102 - Iniciando testes
+14-09-2024 19:06:22 - DEBUG : TESTING - 102 - Iniciando teste de servidor
+14-09-2024 19:06:22 - INFO : CREATE SERVER - 102 - Criando servidor
+14-09-2024 19:06:23 - INFO : SERVER CREATED - 201 - Servidor Criado com sucesso
+14-09-2024 19:06:23 - INFO : SERVER INITIALIZATED - 200 - Servidor iniciado na porta 8080. Acesse http://localhost:8080 no navegador.
+14-09-2024 19:06:23 - INFO : SERVER OK - 200 - Servidor OK
+14-09-2024 19:06:23 - DEBUG - 0 - 
+----------------------------------------------------------------------------------
+14-09-2024 19:06:23 - WARNING : WAITING COMMAND - 400 - Aguardando comando
+14-09-2024 19:06:30 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:06:34 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:06:36 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:06:47 - ERROR : ACCESS DENIED - 401 - Dados errados, verificar informacao
+14-09-2024 19:06:49 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:07:02 - WARNING : DATA COLLECTED - 200 - Dados de Acesso Recbidos
+14-09-2024 19:07:02 - INFO : SUCESS ACCESS - 200 - Dados de acesso validos
+14-09-2024 19:07:02 - INFO : ACCESS DATA - 200 - Dados de acesso 
+Login: cvinicius369
+Password: 123
+Liberacao: true
+14-09-2024 19:07:02 - INFO : REDIRECT TO HOME - 302 - Acessando /home
+14-09-2024 19:07:03 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:08:42 - WARNING : DATA COLLECTED - 200 - Dados de Acesso Recbidos
+14-09-2024 19:08:42 - INFO : SUCESS ACCESS - 200 - Dados de acesso validos
+14-09-2024 19:08:42 - INFO : ACCESS DATA - 200 - Dados de acesso 
+Login: cvinicius369
+Password: 123
+Liberacao: true
+14-09-2024 19:08:42 - INFO : REDIRECT TO HOME - 302 - Acessando /home
+14-09-2024 19:08:42 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:09:15 - WARNING : DATA COLLECTED - 200 - Dados de Acesso Recbidos
+14-09-2024 19:09:15 - INFO : SUCESS ACCESS - 200 - Dados de acesso validos
+14-09-2024 19:09:15 - INFO : ACCESS DATA - 200 - Dados de acesso 
+Login: cvinicius369
+Password: 123
+Liberacao: true
+14-09-2024 19:09:15 - INFO : REDIRECT TO HOME - 302 - Acessando /home
+14-09-2024 19:09:15 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:09:26 - INFO : REDIRECT TO CDB - 302 - Acessando cdb
+14-09-2024 19:09:26 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:09:52 - WARNING : COLLECT DATA - 101 - Coletando dados
+14-09-2024 19:09:52 - ERROR : NO REGISTER IN CSV - 400 - Erro ao converter ID de usuario para CSV
+14-09-2024 19:09:52 - ERROR : NOT CONVERTED - 500 - Erro ao converter valor para double: Brasil
+14-09-2024 19:09:52 - ERROR : NO REGISTER IN CSV - 400 - Erro ao converter ID de usuario para CSV
+14-09-2024 19:09:52 - INFO : SERVER DATA - 200 - Dados Coletados:
+CDI Atual: 11.25
+Taxa do CDI: 99.0
+Tempo de Contrato: 5
+14-09-2024 19:09:52 - INFO : SERVER DATA - 200 - Valor Deposito Mensal: 150.0
+Saldo Pre-Investimento: 906.0
+Valor Final: 756.9609374999999
+14-09-2024 19:09:52 - INFO : SERVER DATA - 200 - Saldo Total Estimado: 1662.9609375
+14-09-2024 19:09:52 - INFO : SERVER INFO - 200 - Imprimindo Resultados
+14-09-2024 19:09:52 - DEBUG : PROCESS TESTING - 102 - Boolean Alterado para: false
+14-09-2024 19:09:52 - DEBUG : PROCESS TESTING - 102 - Boolean Alterado para: true
+14-09-2024 19:09:52 - WARNING : PROCESS TESTING - 200 - Registro em Base de Dados Solicitado: true
+14-09-2024 19:09:52 - INFO : REGISTER DATA - 500 - Registrando Arquivos
+14-09-2024 19:09:52 - INFO : FINISHED REGISTER - 500 - Registro de Arquivos Finalizado
+14-09-2024 19:09:52 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:10:39 - INFO : REDIRECT TO CDB - 302 - Acessando cdb
+14-09-2024 19:10:39 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:10:48 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:10:49 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:10:51 - WARNING : DATA COLLECTED - 200 - Dados de Acesso Recbidos
+14-09-2024 19:10:51 - INFO : SUCESS ACCESS - 200 - Dados de acesso validos
+14-09-2024 19:10:51 - INFO : ACCESS DATA - 200 - Dados de acesso 
+Login: cvinicius369
+Password: 123
+Liberacao: true
+14-09-2024 19:10:51 - INFO : REDIRECT TO HOME - 302 - Acessando /home
+14-09-2024 19:10:51 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+14-09-2024 19:10:55 - WARNING : DATA COLLECTED - 200 - Dados de Acesso Recbidos
+14-09-2024 19:10:55 - INFO : SUCESS ACCESS - 200 - Dados de acesso validos
+14-09-2024 19:10:55 - INFO : ACCESS DATA - 200 - Dados de acesso 
+Login: cvinicius369
+Password: 123
+Liberacao: true
+14-09-2024 19:10:55 - INFO : REDIRECT TO HOME - 302 - Acessando /home
+14-09-2024 19:10:55 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+15-09-2024 13:11:25 - INFO : REDIRECT TO CDB - 302 - Acessando cdb
+15-09-2024 13:11:25 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+15-09-2024 13:13:13 - WARNING : COLLECT DATA - 101 - Coletando dados
+15-09-2024 13:13:13 - ERROR : NO REGISTER IN CSV - 400 - Erro ao converter ID de usuario para CSV
+15-09-2024 13:13:13 - ERROR : NOT CONVERTED - 500 - Erro ao converter valor para double: Brasil
+15-09-2024 13:13:13 - ERROR : NO REGISTER IN CSV - 400 - Erro ao converter ID de usuario para CSV
+15-09-2024 13:13:13 - INFO : SERVER DATA - 200 - Dados Coletados:
+CDI Atual: 11.2
+Taxa do CDI: 99.0
+Tempo de Contrato: 180
+15-09-2024 13:13:13 - INFO : SERVER DATA - 200 - Valor Deposito Mensal: 1000.0
+Saldo Pre-Investimento: 906.0
+Valor Final: 181663.19999999984
+15-09-2024 13:13:13 - INFO : SERVER DATA - 200 - Saldo Total Estimado: 182569.19999999984
+15-09-2024 13:13:13 - INFO : SERVER INFO - 200 - Imprimindo Resultados
+15-09-2024 13:13:13 - DEBUG : PROCESS TESTING - 102 - Boolean Alterado para: false
+15-09-2024 13:13:13 - DEBUG : PROCESS TESTING - 102 - Boolean Alterado para: true
+15-09-2024 13:13:13 - WARNING : PROCESS TESTING - 200 - Registro em Base de Dados Solicitado: true
+15-09-2024 13:13:13 - INFO : REGISTER DATA - 500 - Registrando Arquivos
+15-09-2024 13:13:13 - INFO : FINISHED REGISTER - 500 - Registro de Arquivos Finalizado
+15-09-2024 13:13:13 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
+15-09-2024 13:14:24 - INFO : REDIRECT TO CDB - 302 - Acessando cdb
+15-09-2024 13:14:24 - INFO : REDIRECT TO ROOT PAGE - 302 - Acessando Pagina Raiz
