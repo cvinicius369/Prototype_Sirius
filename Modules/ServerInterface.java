@@ -165,7 +165,7 @@ public class ServerInterface {
                     String valorFinalFormatted = df.format(valorFinal);
                     String valorTotalSaldoFormatted = df.format(valorTotalSaldo);
                     String saldoFormatted = df.format(saldo);
-                    Srting valorSemRendimentoFormatted = df.format(valorSemRendimento);
+                    String valorSemRendimentoFormatted = df.format(valorSemRendimento);
         
                     // Loga os dados coletados
                     config.log("Dados Coletados:\nCDI Atual: " + cdiAtual + "\nTaxa do CDI: " + taxaCdi + "\nTempo de Contrato: " + tempoContrato, 200, "INFO : SERVER DATA");
