@@ -1,24 +1,22 @@
 package Modules;
 
 // Importacao de bibliotecas pre-instaladas java.io
-import java.io.File;
-import java.io.PrintWriter;
-import java.io.FileWriter;
-import java.io.FileReader;
-import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-// Importacao de bibliotecas pre-instaladas java.util
-import java.util.ArrayList;
-import java.util.List;
-// Importacao de bibliotecas pre-instaladas java.time
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 
 // Objeto que sera responsavel pelo registro de logs de eventos e erros
 public class Config {
     // Local onde o arquivo log sera armazenado
-    private final String LOG_FILE = "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Software Enginee\\Java\\Sirius 3.1\\events.log";
+    private final String LOG_FILE = ".\\events.log";
     // Metodo para registrar o log
     public void log(String msg, int cod, String status){
         try (FileWriter fileWriter = new FileWriter(this.LOG_FILE, true);) {
